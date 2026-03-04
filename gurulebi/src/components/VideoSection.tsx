@@ -58,7 +58,6 @@ export default function VideoSection() {
 
   return (
     <section id="video" className="py-20 md:py-28 bg-[#1B1210] relative overflow-hidden">
-      {/* Decorative wood grain pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
           className="w-full h-full"
@@ -70,7 +69,6 @@ export default function VideoSection() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Header */}
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="w-12 h-px bg-[#C49A6C]" />
@@ -87,20 +85,19 @@ export default function VideoSection() {
           </p>
         </div>
 
-        {/* Video Cards */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="justify-center md:grid-cols-2 gap-8">
           <VideoCard
             title={t.video.tourTitle}
             description={t.video.tourDesc}
-            thumbnail="https://mgx-backend-cdn.metadl.com/generate/images/992121/2026-02-26/a45b467a-7f0f-4f5e-ac76-193f06405a4a.png"
-            videoId="dQw4w9WgXcQ"
+            thumbnail="hhttps://youtu.be/ejDlVzH26dw?si=TgxoF2QvB5dULZ3X"
+            videoId="ejDlVzH26dw"
           />
-          <VideoCard
+          {/* <VideoCard
             title={t.video.regionTitle}
             description={t.video.regionDesc}
             thumbnail="https://mgx-backend-cdn.metadl.com/generate/images/992121/2026-02-26/5b9bef3c-4a3d-4f43-a2cd-0f9add4c38c8.png"
             videoId="dQw4w9WgXcQ"
-          />
+          /> */}
         </div>
 
         <p className="text-center text-[#5D4037] text-sm mt-8 italic">

@@ -9,7 +9,6 @@ export default function Footer() {
     <footer className="bg-[#1B1210] border-t-2 border-[#C49A6C]/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-10">
-          {/* Brand */}
           <div>
             <h3 className="text-2xl font-serif font-bold text-[#C49A6C] mb-4">
               ✦ GURIA
@@ -19,7 +18,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="text-lg font-serif font-bold text-[#F5F0EB] mb-4">
               {t.contact.title}
@@ -27,11 +25,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-[#A1887F]">
                 <Phone className="w-4 h-4 text-[#C49A6C]" />
-                <span className="text-sm">+995 599 123 456</span>
+                <span className="text-sm">+995 575 752 021</span>
               </div>
               <div className="flex items-center gap-3 text-[#A1887F]">
                 <Mail className="w-4 h-4 text-[#C49A6C]" />
-                <span className="text-sm">info@guriahostel.ge</span>
+                <span className="text-sm">gurulebi4@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-[#A1887F]">
                 <MapPin className="w-4 h-4 text-[#C49A6C]" />
@@ -40,7 +38,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Social */}
           <div>
             <h4 className="text-lg font-serif font-bold text-[#F5F0EB] mb-4">
               {t.contact.followUs}

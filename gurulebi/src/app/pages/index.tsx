@@ -7,8 +7,9 @@ import PhotoGallery from "@/components/PhotoGallery";
 import VideoSection from "@/components/VideoSection";
 import Footer from "@/components/Footer";
 import { Users, MapPin, Sparkles, UtensilsCrossed, Wine, Mountain, Church, Waves, Palette, Phone, Mail, MapPinIcon, Send, } from "lucide-react";
+import img from "../../../public/image_1.jpg"
 
-/* ─── About Section ─── */
+
 function AboutSection() {
     const { t } = useTranslation();
 
@@ -74,7 +75,6 @@ function AboutSection() {
     );
 }
 
-/* ─── Rooms Section ─── */
 function RoomsSection() {
     const { t } = useTranslation();
 
@@ -104,7 +104,6 @@ function RoomsSection() {
     return (
         <section id="rooms" className="py-20 md:py-28 bg-[#EFEBE9]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Header */}
                 <div className="text-center mb-14">
                     <div className="flex items-center justify-center gap-4 mb-4">
                         <div className="w-12 h-px bg-[#C49A6C]" />
@@ -121,7 +120,6 @@ function RoomsSection() {
                     </p>
                 </div>
 
-                {/* Room Cards - 2x2 grid */}
                 <div className="grid md:grid-cols-2 gap-8">
                     {rooms.map((room, i) => (
                         <div
@@ -220,7 +218,6 @@ function ServicesSection() {
     );
 }
 
-/* ─── Contact Section ─── */
 function ContactSection() {
     const { t } = useTranslation();
     const [sent, setSent] = useState(false);
@@ -234,7 +231,6 @@ function ContactSection() {
     return (
         <section id="contact" className="py-20 md:py-28 bg-[#EFEBE9]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Header */}
                 <div className="text-center mb-14">
                     <div className="flex items-center justify-center gap-4 mb-4">
                         <div className="w-12 h-px bg-[#C49A6C]" />
@@ -252,7 +248,6 @@ function ContactSection() {
                 </div>
 
                 <div className="grid lg:grid-cols-2 gap-10">
-                    {/* Contact Form */}
                     <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#A1887F]/20">
                         {sent && (
                             <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-700 text-sm">
@@ -300,12 +295,10 @@ function ContactSection() {
                         </form>
                     </div>
 
-                    {/* Map & Info */}
                     <div className="space-y-6">
-                        {/* Map */}
                         <div className="rounded-2xl overflow-hidden shadow-lg border border-[#A1887F]/20 aspect-[4/3]">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47876.25!2d42.0!3d41.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405f5e5a5a5a5a5b%3A0x5a5a5a5a5a5a5a5a!2sOzurgeti%2C%20Georgia!5e0!3m2!1sen!2sge!4v1700000000000!5m2!1sen!2sge"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21368.906352277594!2d42.05442973842111!3d41.92807088710275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405d0d6f030778bd%3A0xfeecde4a743c1958!2zR3Vlc3QgaG91c2UgIkd1cnVsZWJpIiAv4YOh4YOQ4YOd4YOv4YOQ4YOu4YOdIOGDoeGDkOGDoeGDouGDo-GDm-GDoOGDnSAi4YOS4YOj4YOg4YOj4YOa4YOU4YOR4YOYIg!5e1!3m2!1sen!2sge!4v1772619356122!5m2!1sen!2sge"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
@@ -316,7 +309,6 @@ function ContactSection() {
                             />
                         </div>
 
-                        {/* Contact Details */}
                         <div className="bg-white rounded-2xl p-6 shadow-lg border border-[#A1887F]/20">
                             <div className="space-y-4">
                                 <div className="flex items-center gap-4">
@@ -327,7 +319,7 @@ function ContactSection() {
                                         <p className="text-xs text-[#A1887F] uppercase tracking-wide">
                                             {t.contact.phone}
                                         </p>
-                                        <p className="text-[#2C1810] font-medium">+995 599 123 456</p>
+                                        <p className="text-[#2C1810] font-medium">+995 575 752 021</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
@@ -338,7 +330,7 @@ function ContactSection() {
                                         <p className="text-xs text-[#A1887F] uppercase tracking-wide">
                                             {t.contact.email}
                                         </p>
-                                        <p className="text-[#2C1810] font-medium">info@guriahostel.ge</p>
+                                        <p className="text-[#2C1810] font-medium">gurulebi4@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">

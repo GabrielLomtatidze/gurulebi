@@ -11,8 +11,8 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
-      {/* <div className="absolute inset-0">
+      
+      <div className="absolute inset-0">
         <video
           autoPlay
           muted
@@ -27,22 +27,21 @@ export default function HeroSection() {
             />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-[#1B1210]/60 via-[#1B1210]/40 to-[#1B1210]/80" />
-      </div> */}
+      </div>
 
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: "url('/image_1.jpg')" }}
       >
-        {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#1B1210]/60 via-[#1B1210]/40 to-[#1B1210]/80" />
-      </div>
+      </div> */}
 
       {/* Wood texture border at bottom */}
       <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-[#3E2723] via-[#C49A6C] to-[#3E2723]" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-        {/* Decorative element */}
+        
         <div className="flex items-center gap-4 mb-6 animate-fade-in">
           <div className="w-16 h-px bg-[#C49A6C]" />
           <span className="text-[#C49A6C] text-sm tracking-[0.3em] uppercase font-medium">
@@ -66,7 +65,7 @@ export default function HeroSection() {
           {t.hero.cta}
         </button>
 
-        {/* Scroll indicator */}
+        
         <button
           onClick={scrollToAbout}
           className="absolute bottom-10 animate-bounce text-[#C49A6C] hover:text-[#d4aa7c] transition-colors"

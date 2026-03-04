@@ -208,13 +208,13 @@ const translations: Record<Language, TranslationKeys> = {
       send: "Send Message",
       phone: "Phone",
       address: "Address",
-      addressValue: "Ozurgeti, Guria, Georgia",
+      addressValue: "Ozurgeti, Guria",
       followUs: "Follow Us",
       sent: "Message sent! We'll get back to you soon.",
     },
     footer: {
       rights: "All rights reserved",
-      madeWith: "Made with ♥ in Guria, Georgia",
+      madeWith: "Made with ♥ in Guria",
     },
   },
   ka: {
@@ -303,13 +303,13 @@ const translations: Record<Language, TranslationKeys> = {
       send: "გაგზავნა",
       phone: "ტელეფონი",
       address: "მისამართი",
-      addressValue: "ოზურგეთი, გურია, საქართველო",
+      addressValue: "ოზურგეთი, გურია",
       followUs: "გამოგვყევით",
       sent: "შეტყობინება გაიგზავნა! მალე დაგიკავშირდებით.",
     },
     footer: {
       rights: "ყველა უფლება დაცულია",
-      madeWith: "შექმნილია ♥-ით გურიაში, საქართველო",
+      madeWith: "შექმნილია ♥-ით გურიაში",
     },
   },
   ru: {
